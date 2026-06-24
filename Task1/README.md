@@ -30,11 +30,3 @@ Once run, the notebook compiles and renders an integrated **9-tab analytical mat
 | **🗃️ Raw Data** | HTML / JS Array Search | Renders a fully queryable database view of all 150 dataset records with live character matching. |
 | **🤖 Model** | Sklearn Core Evaluators | Displays standard model metrics (Precision, Recall, F1 scores) side-by-side with localized Prediction Hit/Miss confusion grids. |
 | **⚡ Predict** | Live Client Inference Engine | Live sandbox allowing manual input parameter adjustments to trigger model classification loops on-the-fly. |
-
----
-
-## 🚀 How to Run the Analytical Dashboard
-1. Download or clone this directory down to your workspace environment.
-2. Ensure you have the required python dependencies established:
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn
