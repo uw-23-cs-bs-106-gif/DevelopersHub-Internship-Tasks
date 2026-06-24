@@ -1,4 +1,4 @@
-#  Task 1: Iris Dataset Exploratory Analysis & Interactive Dashboard
+# 🌸 Task 1: Iris Dataset Exploratory Analysis & Interactive Dashboard
 
 This directory contains the professional analytical suite and interactive engine built to fulfill **Task 1: Exploring and Visualizing a Simple Dataset**. 
 
@@ -6,7 +6,7 @@ Rather than relying purely on static visualization charts, this implementation f
 
 ---
 
-##  Included Elements & Architecture
+## 🛠️ Included Elements & Architecture
 The primary task execution is located inside the `.ipynb` notebook file in this folder, which executes the following technical workflows:
 
 * **Custom Global Styling Canvas:** Clean dashboard canvas design configured via global `matplotlib` and `seaborn` theme configurations (`#f8fafc` engine background, custom color tokens, and optimized typographic scales).
@@ -16,7 +16,7 @@ The primary task execution is located inside the `.ipynb` notebook file in this 
 
 ---
 
-##  Dashboard Feature Tabs Matrix
+## 📊 Dashboard Feature Tabs Matrix
 Once run, the notebook compiles and renders an integrated **9-tab analytical matrix** with the following layouts:
 
 | Tab View | Visual Engine | Diagnostic / Metric Target |
@@ -31,3 +31,10 @@ Once run, the notebook compiles and renders an integrated **9-tab analytical mat
 | **🤖 Model** | Sklearn Core Evaluators | Displays standard model metrics (Precision, Recall, F1 scores) side-by-side with localized Prediction Hit/Miss confusion grids. |
 | **⚡ Predict** | Live Client Inference Engine | Live sandbox allowing manual input parameter adjustments to trigger model classification loops on-the-fly. |
 
+---
+
+## 🚀 How to Run the Analytical Dashboard
+1. Download or clone this directory down to your workspace environment.
+2. Ensure you have the required python dependencies established:
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn
